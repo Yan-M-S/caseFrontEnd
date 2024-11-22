@@ -18,7 +18,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 5. Tenha instalado na sua máquina o json-server com o comando:
 npm install -g json-server
 
-6. Em outro terminal inicie o servidor do json-server com o comando: 
+6. Em outro terminal dentro da pasta do projeto inicie o servidor do json-server com o comando: 
 json-server --watch db.json --port 3000
 
 7. Na pasta service, insira seu IPV4 no lugar dos xxxx na variável de URL no arquivo ClientsAPI 
