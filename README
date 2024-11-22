@@ -1,0 +1,52 @@
+# caseFrontEnd
+
+## Descrição
+Este é um projeto de um case, que tem como objetivo simular um pagamento pix via cartão de crédito, dando opções de parcelar ou não. Foi resolvido da forma mais eficiente possível. Foi utilizado para simular um backend o json server, onde eu coloquei dentro do arquivo db.json o body disponibilizado e para dar realidade nas chamadas das apis eu coloquei um delay de 2s para trabalhar com as possíveis situações que podem acontecer numa aplicação de verdade e na tela de carregamento para simular uma integração com uma api de pagamento. Foi feito principalmente com React Native Paper e Expo.
+
+## Instalação
+Siga os passos abaixo para rodar o projeto localmente:
+
+1. Clone este repositório:
+
+2. Nesse projeto eu utilizei a versão do node: 
+22.7.0
+
+3. Navegue até o diretório do projeto
+
+4. Utilize yarn na pasta do projeto para instalar as depedências 
+
+5. Tenha instalado na sua máquina o json-server com o comando:
+npm install -g json-server
+
+6. Inicie o servidor do json-server com o comando: 
+json-server --watch db.json --port 3000
+
+7. Na pasta service, insira seu IPV4 no lugar dos xxxx na variável de URL no arquivo ClientsAPI 
+
+8. Após o servidor do json-server estiver iniciado na porta 3000 e as depedências estiverem instaladas, inicie o projeto com o comando: yarn start
+
+9. Para visualizar o projeto utilize um emulador (Genymotion ou Android Studio) para android e para IOS (XCode) ou o seu próprio dispositivo para visualizar o aplicativo.
+
+10. Após estar com emulador ou dispositivo aberto, no terminal depois ter carregado o yarn start, para iniciar o projeto aperte A no terminal para abrir ele no seu emulador ou dispositivo e vai ser instalado o expo go.
+
+11. Neste momento você vai estar com aplicativo aberto e rodando.
+
+## Tecnologias
+-React native
+-Typescript
+-Expo
+-expo-google-fonts/montserrat
+-expo-google-fonts/raleway
+-react-navigation/native-stack
+-axios
+-cors
+-expo-image
+-react-native-gesture-handler
+-react-native-paper
+-react-native-reanimated
+-react-native-safe-area-context
+-react-native-screens
+-react-native-vector-icons
+-zustand
+-json-server
+-babel
