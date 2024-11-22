@@ -32,9 +32,6 @@ const PaymentSummary = ({ simulation }: PaymentSummaryProps) => {
         installmentAmount * fees.installments.percentage
       : 0
 
-  const totalFee = fixedFee + installmentFee
-
-  console.log(totalFee)
   return (
     <View style={styles.valuesContainer}>
       <View>
