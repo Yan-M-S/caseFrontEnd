@@ -2,6 +2,7 @@
 
 ## Descrição
 Este é um projeto de um case, que tem como objetivo simular um pagamento pix via cartão de crédito, dando opções de parcelar ou não. Foi resolvido da forma mais eficiente possível. Foi utilizado para simular um backend o json server, onde eu coloquei dentro do arquivo db.json o body disponibilizado e para dar realidade nas chamadas das apis eu coloquei um delay de 2s para trabalhar com as possíveis situações que podem acontecer numa aplicação de verdade e na tela de carregamento para simular uma integração com uma api de pagamento. Foi feito principalmente com React Native Paper e Expo.
+Realizei algumas alterações na UX do projeto para maior otimização e desempenho fornecido no figma como incentivado pelos objetivos di nesmo.
 
 ## Instalação
 Siga os passos abaixo para rodar o projeto localmente:
